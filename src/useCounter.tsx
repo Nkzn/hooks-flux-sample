@@ -1,7 +1,5 @@
 import React, { useContext } from 'react';
-
-export type State = { count: number };
-export type Action = { type: "INCREMENT" | "DECREMENT" | "RESET" };
+import { State, Action } from './ducks';
 
 type ContextType = {
   state: State;
